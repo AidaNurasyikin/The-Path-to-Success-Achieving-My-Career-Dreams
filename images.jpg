@@ -1,1 +1,14 @@
-
+<div class="image-gallery">
+  <div class="designer">
+    <img src="image/paula-scher.jpg" alt="Paula Scher" class="artist-img">
+    <p>Paula Scher</p>
+  </div>
+  <div class="designer">
+    <img src="image/david-carson.jpg" alt="David Carson" class="artist-img">
+    <p>David Carson</p>
+  </div>
+  <div class="designer">
+    <img src="image/stefan-sagmeister.jpg" alt="Stefan Sagmeister" class="artist-img">
+    <p>Stefan Sagmeister</p>
+  </div>
+</div>
