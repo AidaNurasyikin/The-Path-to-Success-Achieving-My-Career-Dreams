@@ -1,7 +1,7 @@
 /* General Layout */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #F4CFC7; /* Pale Dogwood */
+  background-color: #F4CFC7;
   color: #3a3a3a;
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ body {
 
 /* Header & Navigation */
 header {
-  background-color: #E79796; /* Light Coral */
+  background-color: #E79796;
   color: white;
   padding: 40px 20px;
   text-align: center;
@@ -39,10 +39,34 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Back to Top Button */
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #E79796;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#back-to-top:hover {
+  background-color: #d67c7b;
+}
+
 /* Main Content Area */
 main {
   padding: 40px 20px;
-  background-color: #FFBE98; /* Peach Fuzz */
+  background-color: #FFBE98;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   max-width: 1200px;
@@ -54,25 +78,22 @@ p {
   line-height: 1.6;
 }
 
-/* Image Styling */
 img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
-  border: 4px solid #C6C09C; /* Sage */
+  border: 4px solid #C6C09C;
 }
 
-/* Ordered Lists */
 ol {
   margin-left: 20px;
 }
 
-/* Table Styling */
 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
-  background-color: #FFC98B; /* Sunset */
+  background-color: #FFC98B;
 }
 
 th, td {
@@ -86,9 +107,8 @@ th {
   color: white;
 }
 
-/* Footer */
 footer {
-  background-color: #C6C09C; /* Sage */
+  background-color: #C6C09C;
   color: white;
   text-align: center;
   padding: 20px;
@@ -96,7 +116,6 @@ footer {
   border-radius: 0 0 10px 10px;
 }
 
-/* Flowchart Styling for steps.html */
 .flowchart {
   display: flex;
   flex-direction: column;
@@ -161,7 +180,7 @@ footer {
 .caption {
   text-align: center;
   margin-top: 8px;
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   color: #5e4c3a;
   font-family: 'Playfair Display', serif;
 }
