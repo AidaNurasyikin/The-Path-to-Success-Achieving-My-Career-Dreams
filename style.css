@@ -154,5 +154,12 @@ footer {
   transform: scale(1.03);
 }
 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+.caption {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #5e4c3a;
+  font-family: 'Playfair Display', serif;
+}
 
 
