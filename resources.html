@@ -5,8 +5,9 @@
   <title>The Path to Success: Achieving My Career Dreams</title>
   <link rel="stylesheet" href="style.css">
 </head>
-  <!-- Back to Top Button -->
-<button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑</button>
+ <!-- Back to Top Button -->
+<button id="back-to-top" title="Back to top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑</button>
+
 <body>
   <header>
     <h1>Inspiration & Resources</h1>
@@ -75,5 +76,17 @@
   <footer>
     <p>&copy; 2025 My Career Journey</p>
   </footer>
+<script>
+  const backToTopBtn = document.getElementById("back-to-top");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      backToTopBtn.style.display = "flex";
+    } else {
+      backToTopBtn.style.display = "none";
+    }
+  });
+</script>
+
 </body>
 </html>
