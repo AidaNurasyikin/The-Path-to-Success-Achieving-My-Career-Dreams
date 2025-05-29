@@ -50,7 +50,7 @@ main {
 }
 
 p {
-  text-align: justify;
+  text-align: center;
   line-height: 1.6;
 }
 
@@ -118,9 +118,9 @@ footer {
 }
 
 .arrow {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #C6C09C;
-  margin: -20px 0;
+  margin: -50px 0;
 }
 
 .artist-img {
